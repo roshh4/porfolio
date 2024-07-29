@@ -1,0 +1,87 @@
+.card-section{
+  background-color: black;
+  color: white;
+  margin-bottom: 150px;
+}
+.card-container {
+    perspective: 1000px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+  
+.card {
+    width: 150px; 
+    height: 150px; 
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%; 
+    border: 4px solid aquamarine; 
+    transition: transform 0.4s ease-out; 
+    background-color: #040712;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform-style: preserve-3d; 
+}
+  
+  .card-content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(255,0,0,0.5), rgba(0,255,0,0.5));
+    mix-blend-mode: color-dodge;
+    background-position: var(--grad-pos);
+    transition: background-position 0.4s ease-out, opacity 0.4s ease-out;
+  }
+  
+  .card-content::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: var(--spark-pos);
+    transition: background-position 0.9s ease-out, opacity 0.9s ease-out;
+  }
+  
+.card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5); 
+  }
+
+  .card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease-out;
+  }
+
+  .card-4 {
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+  }
+
+  .card-3 {
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+  }
+
+  .card-5 {
+    width: 50px;
+    height: 50px;
+    padding: 45px;
+  }
+
+  .card-section h2{
+    text-align: center;
+    padding-bottom: 30px;
+  }

@@ -1,0 +1,47 @@
+.home-container {
+    display: flex;
+    background-color: black;
+    padding-bottom: 100px;
+    font-family: "calibri";
+    padding-bottom: 150px;
+    padding-top: 70px;
+}
+.right {
+    width: 200px;
+    flex: 1;
+}
+
+p{
+    color: white;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.right img {
+    height: 400px;
+    width: 70%;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-top: 25%;
+    padding-left: 0%;
+}
+
+.left {
+    text-align: right;
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 0.5px solid black;
+    color: #00baba;
+    top: 50%;
+    flex:auto;
+    padding-top: 10%;
+    padding-left: 20%;
+    padding-right: 10%;
+}
+.left h1 {
+    color: #00baba;
+    text-align: center;
+}
