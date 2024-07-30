@@ -13,7 +13,7 @@ const App = () => (
     <Element name="home"><Home /></Element>
     <Element name="about"><Skills /></Element>
     <Element name="Poke"><Card /></Element>
-    <Element name="contact"><Project /></Element>
+    <Element name="project"><Project /></Element>
   </div>
 );
 

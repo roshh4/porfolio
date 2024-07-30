@@ -7,7 +7,7 @@
     padding-top: 70px;
 }
 .right {
-    width: 200px;
+    width: 400px;
     flex: 1;
 }
 
@@ -21,17 +21,16 @@ h1{
 
 .right img {
     height: 400px;
-    width: 70%;
+    width: 60%;
     object-fit: cover;
     border-radius: 6px;
-    margin-top: 25%;
+    margin-top: 10%;
     padding-left: 0%;
 }
 
 .left {
     text-align: right;
     width: 300px;
-    padding: 20px;
     box-sizing: border-box;
     border: 0.5px solid black;
     color: #00baba;
@@ -39,7 +38,7 @@ h1{
     flex:auto;
     padding-top: 10%;
     padding-left: 20%;
-    padding-right: 10%;
+    padding-right: 2%;
 }
 .left h1 {
     color: #00baba;
